@@ -1,0 +1,232 @@
+<!-- project..26 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="text15.css" />
+    <!-- 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Roboto+Condensed:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      
+      .first img {
+        border: 3px solid black;
+        border-radius: 50px;
+        height: 55px;
+        float: left;
+        position: relative;
+        bottom: 3px;
+      }
+      .nav {
+        display: block;
+        background-color: rgba(1, 2, 23, 0.916);
+        height: 65px;
+        width:100%;
+        position: absolute;
+        top:0px;
+        /* left:3px; */
+      }
+      .first {
+        margin: 5px;
+        display: inline;
+        float: left;
+        position: absolute;
+        left: 45px;
+      }
+      .second {
+        font-family: "Balsamiq Sans", cursive;
+        color: aliceblue;
+        /* width: 900px; */
+        text-align: center;
+        text-decoration: none;
+      }
+      .third {
+        position: absolute;
+        right: 45px;
+        top: 5px;
+      }
+      .third button {
+        font-family: "Balsamiq Sans", cursive;
+        border-radius: 4px;
+        margin: 10px;
+        display: block;
+        width: 150px;
+        padding: 3px;
+        float: left;
+        background-color: rgba(1, 2, 23, 0.916);
+        color: aliceblue;
+        border: 2px solid rgb(128, 143, 125);
+        font-size: 20px;
+        cursor: pointer;
+      }
+      .third button:hover {
+        background-color: rgb(85, 101, 85);
+      }
+
+      .first p {
+        width: 145px;
+        display: inline-block;
+        color: aliceblue;
+        font-size: 20px;
+        font-family: "Balsamiq Sans", cursive;
+        position: relative;
+        left: 7px;
+        bottom: 5px;
+        cursor:pointer;
+      }
+      .first p:hover{
+        color: red;
+      }
+      /* .navbar {
+        display: inline-block;
+      } */
+      .navbar li {
+        display: inline-block;
+      }
+      .navbar li a {
+        color: aliceblue;
+        text-decoration: none;
+        padding: 40px;
+        font-size: 20px;
+        position: relative;
+        top: 2px;
+      }
+      .navbar li a:hover {
+        color: rgb(158, 228, 146);
+        text-decoration: underline;
+      }
+      .container {
+        border: 4px solid black;
+        border-radius: 10px;
+        width: 700px;
+        margin: 200px 500px;
+        padding: 70px 0px 70px 0px;
+        text-align: center;
+      }
+      .container h2 {
+        position:relative;
+        bottom:1px;
+        font-family: "Balsamiq Sans";
+      }
+      .name input {
+        font-family: "Balsamiq Sans", cursive;
+        border: 2px solid rgb(88, 87, 87);
+        display: block;
+        width: 500px;
+        text-align: center;
+        padding: 1px;
+        margin: 4px auto;
+        border-radius: 5px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      .name ::placeholder {
+        color: #010217ea;
+      }
+      .but button {
+        width: 140px;
+        margin: 2px;
+        font-size: 20px;
+        font-family: "Balsamiq Sans";
+        border-color: black;
+        border-radius:5px;
+      }
+      .but {
+        text-align: center;
+      }
+      .name select {
+        font-family: "Balsamiq Sans", cursive;
+        cursor: pointer;
+        font-size: 20px;
+        display: block;
+        width: 504px;
+        text-align: center;
+        margin: 4px auto;
+        border-radius: 5px;
+        color: rgba(1, 2, 23, 0.916);
+        border: 2px solid rgb(88, 87, 87);
+      }
+      .but button:hover {
+        background-color: rgb(85, 101, 85);
+      }
+      body {
+        margin: 0px;
+        padding: 0px;
+        background: url(3682012.jpg);
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <!-- <div class="first">
+        <img src="15066.jpg" alt="cant load" />
+        <p>organic foods</p>
+      </div> -->
+
+      <!-- <div class="second"> -->
+        <nav class="nav">
+          <div class="first">
+            <img src="15066.jpg" alt="cant load" />
+            <p>Organic Foods</p>
+          </div>
+          <div class="second">
+            <ul class="navbar">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Market rates</a></li>
+              <li><a href="#">Contact us</a></li>
+            </ul>
+          </div>
+          <div class="third">
+            <button>Call us now</button>
+            <button>Email us</button>
+          </div>
+        </nav>
+      <!-- </div> -->
+
+      <!-- <div class="third">
+        <button>Call us now</button>
+        <button>Email us</button>
+      </div> -->
+    </header>
+
+    <div class="container">
+      <h2>Call us to order your desired vegetables</h2>
+      <form action="">
+        <div class="name">
+          <input type="text" placeholder="Enter your name" />
+        </div>
+
+        <div class="name">
+          <input type="text" placeholder="Enter your number " />
+        </div>
+
+        <div class="name">
+          <input type="text" placeholder="Enter the address" />
+        </div>
+
+        <div class="name">
+          <select name="available" id="">
+            <option value="">Availability</option>
+            <option value="">ladies finger</option>
+            <option value="">brinjal</option>
+            <option value="">carrot</option>
+            <option value="">beetroot</option>
+            <option value="">raddish</option>
+          </select>
+        </div>
+        <div class="but" class="name">
+          <button>submit</button>
+          <button>reset</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
